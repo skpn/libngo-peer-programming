@@ -1,0 +1,1 @@
+<p>sveltekit index route</p>

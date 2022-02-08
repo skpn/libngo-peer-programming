@@ -1,0 +1,15 @@
+*
+!.gitignore
+!.prettierrc
+!.eslint*
+!src/
+!src/**/*
+!static/
+!static/**/*
+!templates/
+!templates/**/*
+!svelte.config.*
+!jsconfig.json
+!package.json
+!Aptfile
+!.slugignore
