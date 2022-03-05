@@ -1,0 +1,1 @@
+<p>sveltekit test subfolder route</p>
