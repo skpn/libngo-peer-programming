@@ -5,12 +5,16 @@
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
+		<a href="https://kit.svelte.dev" target="blank">
 			<img src={logo} alt="SvelteKit" />
 		</a>
+		
 	</div>
-
+	
 	<nav>
+		<a href="/">Index</a>
+		<a href="/test/newRoute">New Route</a>
+		<a href="/test/utils/indexModal">Fenêtre modal</a>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
@@ -20,6 +24,8 @@
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
+		<a href="/test/subfolder/subfolderRoute">Subfolder  Route</a>
+		<a href="/test/pokemon/app">Liste Pokemon</a>
 	</nav>
 
 	<div class="corner">
@@ -34,9 +40,10 @@
 	}
 
 	.corner {
-		width: 3em;
+		width: 10em;
 		height: 3em;
 	}
+
 
 	.corner a {
 		display: flex;
