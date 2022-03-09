@@ -3,6 +3,8 @@
 	import MapMarker from './mapMarker.svelte';
 </script>
 
+C'est la Map Test
+
 <Map lat={35} lon={-84} zoom={3.5}>
 	<MapMarker lat={37.8225} lon={-122.0024} label="Svelte Body Shaping"/>
 	<MapMarker lat={33.8981} lon={-118.4169} label="Svelte Barbershop & Essentials"/>
