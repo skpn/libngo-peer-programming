@@ -1,0 +1,17 @@
+@import './_mouse.scss';
+
+* {
+	max-width: 100%;
+}
+
+.button-reset {
+	border: none;
+	appearance: none;
+	background: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $color-text;
+}

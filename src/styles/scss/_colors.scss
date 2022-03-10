@@ -1,0 +1,165 @@
+$color-main: #6747e4; // rgb(103, 71, 228)
+$color-lilac: #e0dbf8;
+$color-lilac-font: #aea1f5;
+$color-second: #2d2a3b;
+$color-black: rgba(0, 0, 0, 0.4);
+$color-link: #a0d2db;
+$color-visited-link: #551a8b;
+$color-text: #434549;
+$color-dark: #535353;
+$color-grey: #d3d3d3;
+$color-blue: #5094b8;
+$color-light-blue: #ecf6f7;
+$color-blue-green: #aad1da;
+$color-light-main: #faf9ff;
+$color-light: #faf9f8;
+$color-invalid: #c91212;
+
+$color-replacement: #6747e4;
+$color-assistancy: #5094b8;
+$color-collaboration: #45dfa4;
+$color-inactive: #d3d3d3;
+$color-signed: #c6edd9;
+$color-dark-signed: #72d6a4;
+$color-available: #e0dbf8;
+$color-disponibility: $color-light-blue;
+
+.color-main {
+	color: $color-main;
+}
+
+.color-white {
+	color: white;
+}
+
+.color-second {
+	color: $color-second;
+}
+
+.color-light {
+	color: $color-light;
+}
+
+.color-text {
+	color: $color-text;
+}
+
+.color-link {
+	color: $color-link;
+}
+
+.color-visited-link {
+	color: $color-visited-link;
+}
+
+.color-dark {
+	color: $color-dark;
+}
+
+.color-inactive {
+	color: $color-inactive;
+}
+
+.color-grey {
+	color: $color-grey;
+}
+
+.color-article-grey {
+	color: grey;
+}
+
+.color-replacement {
+	color: $color-replacement;
+}
+
+.color-assistancy {
+	color: $color-assistancy;
+}
+
+.color-collaboration {
+	color: $color-collaboration;
+}
+
+.color-inactive {
+	color: $color-inactive;
+}
+
+.color-invalid {
+	color: $color-invalid;
+}
+
+.color-blue {
+	color: $color-blue;
+}
+
+.background-main {
+	background-color: $color-main;
+}
+
+.background-second {
+	background-color: $color-second;
+}
+
+.background-lilac {
+	background-color: $color-lilac;
+}
+
+.background-light-main {
+	background-color: $color-light-main;
+}
+
+.background-blue {
+	background-color: $color-blue;
+}
+
+.background-light-blue {
+	background-color: $color-light-blue;
+}
+
+.background-dark {
+	background-color: $color-dark;
+}
+
+.background-white {
+	background-color: white;
+}
+
+.border-main {
+	border-color: $color-main;
+}
+
+.border-second {
+	border-color: $color-second;
+}
+
+.border-blue {
+	border-color: $color-blue;
+}
+
+.border-black {
+	border-color: $color-black;
+}
+
+.border-replacement {
+	border-color: $color-replacement;
+}
+
+.border-assistancy {
+	border-color: $color-assistancy;
+}
+
+.border-collaboration {
+	border-color: $color-collaboration;
+}
+
+.border-inactive {
+	border-color: $color-inactive;
+}
+
+.border-invalid {
+	border-color: $color-invalid;
+}
+
+.border-grey {
+	border-color: $color-grey;
+}

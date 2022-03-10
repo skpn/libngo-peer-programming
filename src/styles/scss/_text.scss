@@ -1,0 +1,36 @@
+.text-centered {
+	text-align: center;
+}
+
+.text-underlined {
+	text-decoration: underline;
+}
+
+.text-justified {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.text-ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.word-break-all {
+	word-break: break-all;
+}
+
+.white-space-break-spaces {
+	white-space: break-spaces;
+}
+
+.text-placeholder {
+  color: #757575;
+  font-style: italic;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,9 @@
+$color-var: green;
+
+:export {
+	color-var: $color-var;
+}
+
+.color-red {
+	color: red;
+}

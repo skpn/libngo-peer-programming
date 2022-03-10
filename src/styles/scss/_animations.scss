@@ -1,0 +1,45 @@
+@import './_colors.scss';
+
+.lineEffect {
+  position: relative;
+  text-align: center;
+  // padding-bottom: .3rem;
+  // creating the line
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    // left: 1em;
+    // left: 0;
+    width: 70%;
+    // height: 2.3px;
+    // height: 10%;
+    height: .144rem;
+    background: $color-main;
+    transform-origin: 100% 0; // transform starts from left side 100% to right side 0%
+    transform: scaleX(0); // default to 0% to left side, making the line invsibible if not hovered
+    transition: transform 400ms; // time of the "animation"
+  }
+  &:hover::before {
+    transform-origin: 0 0; // making the line disappear on hover during the 400ms animation duration, with a left/right at 0%
+    transform: scaleX(1); // 100% to right side, making it visible
+  }
+}
+
+// bounce anim for conversations icon
+@-webkit-keyframes bounce {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-5px);
+  }
+}

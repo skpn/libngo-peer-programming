@@ -1,0 +1,55 @@
+@import './_colors.scss';
+
+.link-reset {
+	text-decoration: none;
+	color: $color-text;
+}
+
+.button-link {
+	@extend .link-reset;
+	margin: 5px;
+	padding: 8px;
+	overflow: hidden;
+	border-radius: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 15px;
+	height: 1.2rem;
+	width: 15rem;
+	background-color: $color-main;
+	color: white;
+	cursor: pointer;
+	outline: none !important;
+	border: solid 2px $color-main;
+	transition: all 200ms ease-in-out;
+}
+
+.button-link:hover {
+	background-color: $color-light;
+	color: $color-main;
+}
+
+.blue-green-button-link {
+	@extend .button-link;
+	background-color: $color-blue-green;
+	border: solid 2px $color-blue-green;
+	color: $color-main;
+}
+
+.blue-green-button-link:hover {
+	background-color: $color-light;
+	color: $color-blue-green;
+}
+
+.lilac-button-link {
+	@extend .button-link;
+	background-color: $color-lilac;
+	border: solid 2px $color-lilac;
+	color: $color-main;
+}
+
+.lilac-button-link:hover {
+	background-color: $color-light;
+	border-color: $color-main;
+}

@@ -10,6 +10,7 @@
 	{ id: 2, text: `Pokemon` },
     { id: 7, text: `Chat avec le robot limité` },
 	{ id: 3, text: `Index` },
+    { id: 8, text: `Message traduction` },
     { id: 4, text: `Index New Route` },
 	{ id: 5, text: `Fenêtre Modal` },
 	{ id: 6, text: `SubFolderRoute` }

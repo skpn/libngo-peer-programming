@@ -7,6 +7,7 @@
 	import FenetreModal from '../utils/indexModal.svelte';
 	import SubFolderRoute from '../subfolder/subFolderRoute.svelte';
 	import RobotLimiteChat from '../utils/chat.svelte';
+	import Messages from './messages.svelte';
 
 	let pin;
 	$: view = pin ? pin.replace(/\d(?!$)/g, '•') : 'enter your pin';
@@ -35,28 +36,18 @@
 {#if valeurCombo.id === 1}
 <h1 style="color: {pin ? '#333' : '#ccc'}">{view}</h1>
 <Keypad bind:value={pin} on:submit={handleSubmit}/>
-{/if}
-
-{#if valeurCombo.id === 2}
+{:else if valeurCombo.id === 2}
 <Pokemon/>
-{/if}
-
-{#if valeurCombo.id === 3}
+{:else if valeurCombo.id === 3}
 <IndexBase/>
-{/if}
-
-{#if valeurCombo.id === 4}
+{:else if valeurCombo.id === 4}
 <IndexNewRoute/>
-{/if}
-
-{#if valeurCombo.id === 5}
+{:else if valeurCombo.id === 5}
 <FenetreModal/>
-{/if}
-
-{#if valeurCombo.id === 6}
+{:else if valeurCombo.id === 6}
 <SubFolderRoute/>
-{/if}
-
-{#if valeurCombo.id === 7}
+{:else if valeurCombo.id === 7}
 <RobotLimiteChat/>
+{:else if valeurCombo.id === 8}
+<Messages/>
 {/if}

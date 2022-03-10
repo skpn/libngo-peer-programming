@@ -1,0 +1,53 @@
+.fullArticleBox {
+  margin: 2rem auto;
+  border-radius: 1rem;
+  border: 3px solid lightblue;
+  flex-grow: 1;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articleContentDiv {
+  width: 80%;
+  margin-top: 1rem;
+  border-top: 1px solid black;
+}
+
+.intro {
+  font-style: italic;
+  white-space: pre-line;
+  max-width: 75%;
+  font-family: inherit;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.centered {
+  text-align: center;
+}
+
+.infoLine {
+  display: flex;
+  justify-content: center;
+}
+
+.readingTime {
+  margin: 0.3rem auto 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1051px) {
+  .fullArticleBox {
+    width: 90%;
+  }
+
+  .articleContentDiv {
+    width: 85%;
+  }
+
+  .intro {
+    max-width: 80%;
+  }
+}

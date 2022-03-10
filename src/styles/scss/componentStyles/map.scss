@@ -1,0 +1,40 @@
+@import "src/styles/scss/_colors.scss";
+@import "src/styles/scss/_z_indexes.scss";
+
+
+:global(#map) {
+  box-shadow: 20px 0 10px -10px #00000026 inset;
+  -webkit-box-shadow: 20px 0 10px -10px #00000026;
+}
+
+:global(.mapbox-ctrl-logo) {
+  display: none !important;
+}
+
+:global(.mapboxgl-popup-content) {
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+:global(.mapboxgl-popup-close-button) {
+  background: white !important;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+}
+
+:global(.mapboxgl-canvas) {
+  outline: none;
+}
+
+:global(.mapboxgl-ctrl-top-right) {
+  top: 85vh !important;
+}
+
+/* :global(g:hover) {
+    fill: red;
+  } */
+:global(.activeMarker *) {
+  fill: $color-main;
+  z-index: $top-z-index;
+}

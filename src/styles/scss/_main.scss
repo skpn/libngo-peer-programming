@@ -1,0 +1,48 @@
+@import './_constants.scss';
+@import './_z_indexes.scss';
+
+@import './_blog.scss';
+@import './_fonts.scss';
+@import './_colors.scss';
+@import './_borders.scss';
+@import './_animations.scss';
+@import './_links.scss';
+@import './_buttons.scss';
+@import './_flex.scss';
+@import './_text.scss';
+@import './_margins.scss';
+@import './_dimensions.scss';
+@import './_reset.scss';
+@import './_mouse.scss';
+
+.hidden {
+	display: none;
+}
+
+.show-above-1000 {
+	display: none;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.absolute-top-right {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.popup-standard {
+	@extend .shadow, .flex-column, .width-fit-content;
+	max-height: 95vh;
+	max-width: 90vw;
+	width: 40rem;
+	min-width: 40vw;
+	background: $color-light;
+	border-radius: 1.5rem;
+  margin: auto;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
